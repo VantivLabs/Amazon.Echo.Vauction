@@ -1,0 +1,103 @@
+AuthenticateIntent to authenticate me with pin {authID}
+AuthenticateIntent authenticate me with pin {authID}
+AuthenticateIntent use pin {authID} to authenticate me
+
+GetItemIDIntent what is the number of the {Item}
+GetItemIDIntent what is the auction number of the {Item}
+GetItemIDIntent tell me the number of the {Item}
+GetItemIDIntent tell me the auction number of the {Item}
+GetItemIDIntent get me the number of the {Item}
+GetItemIDIntent get me the auction number of the {Item}
+
+ListLotsIntent what's on the block
+ListLotsIntent what's for sale
+ListLotsIntent what is for sale
+ListLotsIntent what items are for sale
+ListLotsIntent what items are there
+ListLotsIntent what can I bid on
+ListLotsIntent what items can I bid on
+ListLotsIntent what lots are up
+ListLotsIntent what lots are available
+ListLotsIntent what lots can I bid on
+
+PickAndBidIntent I want to bid {Bid} dollars on the {Item}
+PickAndBidIntent bid {Bid} dollars on the {Item}
+PickAndBidIntent I want to place a {Bid} dollar bid on the {Item}
+PickAndBidIntent place a {Bid} dollar bid on the {Item}
+PickAndBidIntent I want to put {Bid} dollars on the {Item}
+PickAndBidIntent put {Bid} dollars on the {Item}
+PickAndBidIntent to bid {Bid} dollars on the {Item}
+
+PickAndBidWithIDIntent I want to bid {Bid} dollars on lot {ID}
+PickAndBidWithIDIntent bid {Bid} dollars on lot {ID}
+PickAndBidWithIDIntent I want to place a {Bid} dollar bid on lot {ID}
+PickAndBidWithIDIntent bid {Bid} dollars on the item on lot {ID}
+
+TimeLeftIntent how much time is left on the {Item}
+TimeLeftIntent how much time is remaining on the {Item}
+TimeLeftIntent how long do I have to bid on the {Item}
+
+WhoWonIntent who won the {Item}
+WhoWonIntent did I win the {Item}
+WhoWonIntent who was the winner of the {Item}
+WhoWonIntent who is the winner of the {Item}
+WhoWonIntent who's the winner of the {Item}
+
+HighestBidIntent who is winning on the {Item}
+HighestBidIntent who is winning the {Item}
+HighestBidIntent who is winning
+HighestBidIntent check the last bid on the {Item}
+HighestBidIntent check the last {Item} bid
+HighestBidIntent what's the last bid on the {Item}
+HighestBidIntent what's the last {Item} bid
+HighestBidIntent check the latest bid on the {Item}
+HighestBidIntent check the latest {Item} bid
+HighestBidIntent what's the latest bid on the {Item}
+HighestBidIntent what's the latest {Item} bid
+HighestBidIntent check the highest bid on the {Item}
+HighestBidIntent check the highest {Item} bid
+HighestBidIntent what's the highest bid on the {Item}
+HighestBidIntent what's the highest {Item} bid
+HighestBidIntent check the high bid on the {Item}
+HighestBidIntent check the high {Item} bid
+HighestBidIntent what's the high bid on the {Item}
+HighestBidIntent what's the high {Item} bid
+HighestBidIntent check the {Item} bid
+HighestBidIntent check the bid on the {Item}
+HighestBidIntent what's the bid on the {Item}
+HighestBidIntent what's the {Item} bid
+
+RestartIntent to restart the auction
+RestartIntent restart the auction
+RestartIntent reset the auction
+RestartIntent to reset the auction
+
+PayIntent to pay for the {Item}
+PayIntent pay for the {Item}
+PayIntent pay for my {Item}
+PayIntent to pay for my {Item}
+
+EndAuctionIntent end the auction for the {Item}
+EndAuctionIntent end the {Item}
+EndAuctionIntent to end the auction for the {Item}
+EndAuctionIntent to end the {Item}
+EndAuctionIntent end the bidding for the {Item}
+EndAuctionIntent end bidding for the {Item}
+
+CurrentProfileIntent who is the bidder
+CurrentProfileIntent who is the current bidder
+CurrentProfileIntent who is the current profile
+CurrentProfileIntent who's profile am I in
+CurrentProfileIntent who am I
+CurrentProfileIntent what profile is this
+
+CompletionStatusIntent what is the completion status of the {Item}
+CompletionStatusIntent what's the completion status of the {Item}
+CompletionStatusIntent what is the status of the {Item}
+CompletionStatusIntent what's the status of the {Item}
+CompletionStatusIntent what is going on with the {Item}
+
+HelpIntent for help
+HelpIntent help
+HelpIntent to help me
+HelpIntent help me

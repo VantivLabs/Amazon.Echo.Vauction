@@ -1,0 +1,12 @@
+[
+    {
+        "id" : "1",
+        "userIdList": ["1","2"],
+        "finalSellingPrice" : "22.22",
+        "userThatWonId" : "2",
+        "currentBid" : {
+            "price" : "22.22",
+            "userId" : "2"
+        }
+    }
+]

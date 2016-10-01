@@ -1,0 +1,123 @@
+{
+  "intents": [
+    {
+      "intent": "AuthenticateIntent",
+      "slots":[
+        {
+          "name":"authID",
+          "type":"AMAZON.FOUR_DIGIT_NUMBER"
+        }
+      ]
+    },
+    {
+      "intent": "EndAuctionIntent",
+      "slots":[
+        {
+          "name":"Item",
+          "type":"LIST_ITEM"
+        }
+      ]
+    },
+    {
+      "intent": "GetItemIDIntent",
+      "slots":[
+        {
+          "name":"Item",
+          "type":"LIST_ITEM"
+        }
+      ]
+    },
+    {
+      "intent": "ListLotsIntent"
+    },
+    {
+      "intent": "TimeLeftIntent",
+      "slots":[
+        {
+          "name":"Item",
+          "type":"LIST_ITEM"
+        }
+      ]
+    },
+    {
+      "intent": "CompletionStatusIntent",
+      "slots":[
+        {
+          "name":"Item",
+          "type":"LIST_ITEM"
+        }
+      ]
+    },
+    {
+      "intent": "PickAndBidIntent",
+      "slots":[
+        {
+          "name":"Bid",
+          "type":"BID_AMOUNT"
+        },
+        {
+          "name":"Item",
+          "type":"LIST_ITEM"
+        }
+      ]
+    },
+    {
+      "intent": "PickAndBidWithIDIntent",
+      "slots":[
+        {
+          "name":"Bid",
+          "type":"BID_AMOUNT"
+        },
+        {
+          "name":"ID",
+          "type":"AMAZON.FOUR_DIGIT_NUMBER"
+        }
+      ]
+    },
+    {
+      "intent": "WhoWonIntent",
+      "slots":[
+        {
+          "name":"Item",
+          "type":"LIST_ITEM"
+        }
+      ]
+    },
+    {
+      "intent": "HighestBidIntent",
+      "slots":[
+        {
+          "name":"Item",
+          "type":"LIST_ITEM"
+        }
+      ]
+    },
+    {
+      "intent":"CurrentProfileIntent"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent":"RestartIntent"
+    },
+    {
+      "intent": "PayIntent",
+      "slots":[
+        {
+          "name":"Item",
+          "type":"LIST_ITEM"
+        }
+      ]
+    },
+    {
+      "intent": "HelpIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    }
+  ]
+}

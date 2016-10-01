@@ -1,0 +1,49 @@
+[
+    {
+        "name":"Bike and Doll for sale",
+        "lotId":"12345",
+        "items": 
+        [
+            {
+                "id" : "1",
+                "name" : "Kids Bike",
+                "description" : "This is the greatest bike. Just the greatest. Trust me. I know bikes and it's just tremendous.",
+                "quantity" : "1",
+                "picture" : "http://blah.com/test.jpg"
+            },
+            {
+                "id" : "2",
+                "name" : "Doll",
+                "description" : "This is a great doll! A little creepy though.",
+                "quantity" : "1",
+                "picture" : "http://blah.com/test.jpg"
+            }
+        ],
+        "openingBid" : "12.22",
+        "minimumSalesPrice" : "30.00",
+        "buyItNowPrice" : "50.00",
+        "startDate" : "01/01/2016",
+        "endDate" : "01/01/2016",
+        "ownerId" : 1
+    },
+    {
+        "name":"2 Bikes for sale",
+        "lotId":"12346",
+        "items": 
+        [
+            {
+                "id" : "3",
+                "name" : "Mountain Bikes",
+                "description" : "This is the greatest bike. Just the greatest. Trust me. I know bikes and it's just tremendous. And there's two of them. This is a yuge deal.",
+                "quantity" : "2",
+                "picture" : "http://blah.com/test.jpg"
+            }
+        ],
+        "openingBid" : "150.00",
+        "minimumSalesPrice" : "150.00",
+        "buyItNowPrice" : "350.00",
+        "startDate" : "01/01/2016",
+        "endDate" : "01/02/2016",
+        "ownerId" : 2
+    }
+]

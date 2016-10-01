@@ -1,0 +1,20 @@
+[
+    {
+        "userName" : "dourada",
+        "name" : "Dan Ourada",
+        "id" : "1",
+        "cellPhone" : "111-111-1111",
+        "emailAddress" : "dan.ourada@vantiv.com",
+        "token" : "5499990123456781",
+        "pin" : "12345"
+    },
+    {
+        "userName" : "apaulson",
+        "name" : "Dan Ourada",
+        "id" : "2",
+        "cellPhone" : "111-111-1111",
+        "emailAddress" : "alec.paulson@vantiv.com",
+        "token" : "5499990123456781",
+        "pin" : "12345"
+    }
+]

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
+  <title>Vantiv Auction</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="css/custom.css" type="text/css" rel="stylesheet" media="screen,projection" />
+</head>
+
+<body>
+<nav class="transparent" role="navigation">
+  <div class="nav-wrapper container">
+    <a id="logo-container" href="/items.html" class="brand-logo">
+      <div class="row" align="center">
+        <img src="images/logo.png" width="134px" height="22.5">
+      </div>
+    </a>
+    <ul class="right hide-on-med-and-down">
+      <li><a href="/alexa.html">Alexa</a></li>
+      <li><a href="/credentials.html">Settings</a></li>
+      <li><a href="/login.html">Log In</a></li>
+    </ul>
+    <ul id="nav-mobile" class="side-nav">
+      <li><a href="/alexa.html">Alexa</a></li>
+      <li><a href="/credentials.html">Settings</a></li>
+    </ul>
+    <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+  </div>
+</nav>
+
+  <br>
+
+  <div ng-app="itemsApp">
+  <div ng-controller="itemsCtrl">
+    <div class="container">
+      <div class="section">
+        <div class="row">
+          <div class="col s12 m4" ng-repeat="item in items">
+            <div class="card" ng-cloak>
+              <div class="card-image">
+                <img ng-src="images/{{item.image}}">
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4"><span class="card-title-inner">{{item.name}}</span><i class="material-icons right">close</i></span>
+                <span class="red-text text-lighten-2 badge">{{item.timeremaining}}</span>
+                <p>Lot ID <a class="green-text text-lighten-2">{{item.lotid}}</a></p>
+                <p>Description <a class="green-text text-lighten-2">{{item.description}}</a></p>
+                <h5>Starting Bid: {{item.startingbid}}</h5>
+                <h5>Buy It Now: {{item.buyout}}</h5>
+                <div class="row center">
+                  <a href="#" id="download-button" class="btn waves-effect waves-light orange">Place Bid</a>
+                </div>
+                
+                
+                <div class="row center">
+                  <a href="#" id="download-button" class="btn waves-effect waves-light green">Watch</a>
+                </div>
+              </div>
+              <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4"><span class="card-title-inner">{{item.name}}</span><i class="material-icons right">more_vert</i></span>
+                  <p>Starting Bid: {{item.startingbid}}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+
+    <footer class="page-footer orange">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <p class="grey-text text-lighten-4"> © 2016 Vantiv. All Rights Reserved.</p>
+          </div>
+          <div class="col l3 s12">
+            <ul>
+              <li><a class="white-text" href="https://twitter.com/vantivtechvant"><i class="fa fa-twitter fa-lg"></i> </a>
+                <a class="white-text" href="https://www.linkedin.com/company/vantiv"><i class="fa fa-linkedin fa-lg"></i> </a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container">
+          Developed by the
+          <a class="orange-text text-lighten-3" href="http://materializecss.com">
+            <a class="white-text" href="https://www.vantiv.com/developers"><img src="images/vantivDev.png" height="15px" width="15px"></a>
+            Vantiv Innovation Team</a>
+        </div>
+
+        <!--  Scripts-->
+        <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script src="js/materialize.js"></script>
+        <script src="js/init.js"></script>
+        <script src="js/ripple.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+        <script src="js/items-controller.js"></script>
+</body>
+
+</html>
